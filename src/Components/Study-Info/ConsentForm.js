@@ -56,7 +56,7 @@ const ConsentForm = () => {
         </p>
           <h3 className="title-margin-top">Ethical Considerations and Your Wellbeing</h3>
         <p>
-          The voting system you are testing is designed to help prevent coercion in online voting. In the following study, you may be asked to "Imagine you are coerced, cast an invalid vote in the voting system." These instructions are intended to understand whether users can use the voting system correctly under coercion scenarios. If you feel any discomfort or distress from these instructions or the study in general, you may leave the study at any time without penalty.
+          The voting system you are testing is designed to help prevent coercion in online voting. In the study, you may be instructed to "Imagine you are coerced, cast an invalid vote in the voting system." These instructions are intended to understand whether users can use the voting system under such scenarios. If you feel any discomfort or distress from these instructions or the study in general, you may leave the study at any time without penalty.
         </p>
         <h3 className="title-margin-top">Compensation</h3>
         <p>
@@ -66,23 +66,12 @@ const ConsentForm = () => {
         <h3 className="title-margin-top">How we handle and delete the data</h3>
         <p>
           If a participant discloses any personal information about themselves
-          or other people in the voting system or when answering the
-          questionnaire that could lead to identification, the researchers will remove this from the dataset and
+          or other people in the voting system, the researchers will remove this from the dataset and
           replace it with a placeholder.{" "}
         </p>
         <h3 className="title-margin-top">What data we collect</h3>
-        <p>
-          The participants will be asked to share the following personal data:
-        </p>
-        <ul className="text-margin-top">
-          <li>Gender</li>
-          <li>Age</li>
-          <li>Nationality</li>
-          <li>Level of education</li>
-        </ul>
-        <p className="text-margin-top">
-          We further collect the answers that the participants give to the
-          questions in the questionnaire, as well as data that the participants are asked to provide within
+        <p >
+          We collect the data that the participants are asked to provide within
           the voting system. Please note that all candidates on the digital
           voting paper are fictional and the participants are asked to vote for
           a specific candidate before they enter the voting system. Therefore,
@@ -109,35 +98,20 @@ const ConsentForm = () => {
           study:
         </p>
         <ul>
+        
           <li className="text-margin-top">
-            <span className="bold-text">SurveyXact:</span> We use SurveyXact to
-            carry out the survey. Personal data (gender, age, nationality, level
-            of education) will be collected through the questions and stored on
-            the SurveyXact platform. The third parties mentioned below will not
-            have access to this data. Please refer to SurveyXact’s privacy
-            policy for more information:{" "}
-            <a
-              className="info-link"
-              href="https://www.surveyxact.com/product/data-security/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://www.surveyxact.com/product/data-security/
-            </a>
-          </li>
-          <li className="text-margin-top">
-            <span className="bold-text">Netlify:</span> We use Netlify to host
-            the voting system. Netlify might collect your IP address and other
+            <span className="bold-text">Vercel:</span> We use Vercel to host
+            the voting system. Vercel might collect your IP address and other
             personal data, however, we will not have access to this data and
-            netlify is not sharing any IP addresses or other personal data.
-            Please refer to netlify’s privacy policy for more information:{" "}
+            Vercel is not sharing any IP addresses or other personal data.
+            Please refer to Vercel’s privacy policy for more information:{" "}
             <a
               className="info-link"
-              href="https://www.netlify.com/privacy/"
+              href="https://vercel.com/privacy"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://www.netlify.com/privacy/
+              https://vercel.com/privacy
             </a>
           </li>
           <li className="text-margin-top">
