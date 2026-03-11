@@ -67,7 +67,6 @@ I understand and will cast an invalid vote for 'Sofia Lee' to safeguard my origi
          
               
                 In a real election you would get these instructions as a physical or digital letter by the election authorities.
-            
               <p className="text-margin-top">
                 <span className="blue-bg-highlight">
                   Make sure that you can access the letter throughout the study.
@@ -80,6 +79,18 @@ I understand and will cast an invalid vote for 'Sofia Lee' to safeguard my origi
               >
                 Download
               </button>
+            </div>
+          </div>
+
+          <hr className="step-divider" />
+
+          {/* Step 3 */}
+          <div className="step-row">
+            <div className="step-number">3</div>
+            <div className="step-content">
+              <p>
+                Please complete the full voting flow and the following survey. You will be redirected to Prolific at the end of the study.
+              </p>
             </div>
           </div>
 
